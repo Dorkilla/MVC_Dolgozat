@@ -1,3 +1,3 @@
-import KutyakController from "../controller/KutyakController.js";
+import KutyakController from "./controller/KutyakController.js";
 
 new KutyakController()
