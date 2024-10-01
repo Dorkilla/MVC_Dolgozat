@@ -8,6 +8,7 @@ export default class KutyakController{
         new Kartyak(this.adatLista.getList(), this.tartalomElem);
 
         this.#esemenykezelo();
+      
     }
 
     #esemenykezelo(){
@@ -16,4 +17,7 @@ export default class KutyakController{
         new Kartyak(this.adatLista.getList(), this.tartalomElem);
         })
     }
-}
+
+
+    }
+

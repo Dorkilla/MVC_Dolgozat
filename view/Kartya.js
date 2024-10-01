@@ -6,7 +6,7 @@ export default class Kartya{
         this.#kutyaAdat=adat;
         this.#szuloElem=szuloElem;
         this.kutyaKiir()
-        this.gombElem=$(".kiv:last")
+        this.gombElem=$(".kivalaszt:last")
         this.gombKattint()
     }
 
@@ -17,7 +17,8 @@ export default class Kartya{
         <p class="card-text">Név: ${this.#kutyaAdat.kor}</p>
         <p class="card-text">Név: ${this.#kutyaAdat.nem}</p>
         </div>
-        <button class="kiv btn tbn-success">Kiválaszt</button>
+        <button class="kivalaszt btn tbn-success">Kiválaszt</button>
+        <button class="torles btn btn-success">Törlés</button>
         </div>`;
         this.#szuloElem.innerHTML += txt;
         
@@ -29,4 +30,6 @@ export default class Kartya{
             window.dispatchEvent(e);
         })
     }
+
+    
 }

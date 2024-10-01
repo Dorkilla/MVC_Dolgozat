@@ -1,3 +1,4 @@
+import AdatLista from "../model/AdatLista.js";
 import Kartya from "../view/Kartya.js";
 
 export default class Kartyak{
@@ -16,4 +17,6 @@ export default class Kartyak{
             new Kartya(elem, this.#szuloElem);
         })
     }
-}
+
+    
+    }
