@@ -6,7 +6,7 @@ export default class Kartya{
         this.#kutyaAdat=adat;
         this.#szuloElem=szuloElem;
         this.kutyaKiir()
-        this.gombElem=$(".kivalaszt:last")
+        this.gombElem=$(".kivalaszt")
         this.gombKattint()
     }
 
